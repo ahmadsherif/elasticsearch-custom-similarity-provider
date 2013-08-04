@@ -12,8 +12,7 @@ import org.apache.lucene.index.FieldInvertState;
 public class CustomSimilarity extends DefaultSimilarity {
 
   @Override
-  public float computeNorm(String field, FieldInvertState state) {
+  public float lengthNorm(FieldInvertState state) {
     return state.getBoost();
   }
-  
 }
