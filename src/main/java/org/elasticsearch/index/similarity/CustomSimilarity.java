@@ -1,6 +1,6 @@
 package org.elasticsearch.index.similarity;
 
-import org.apache.lucene.search.DefaultSimilarity;
+import org.apache.lucene.search.similarities.DefaultSimilarity;
 import org.apache.lucene.index.FieldInvertState;
 /**
  * Custom similarity class
